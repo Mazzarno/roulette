@@ -1,0 +1,103 @@
+/* RESET CSS */
+
+a {
+  text-decoration: none;
+}
+
+/* FONT */
+
+@font-face {
+  font-family: 'Lato';
+  src: url('~assets/css/font/Lato/Lato-Bold.ttf');
+  font-weight: bold;
+  font-display: swap;
+}
+
+h1 {
+  font-family: 'Lato';
+  color: #060f22;
+  margin: 10;
+}
+
+/* LAYOUT */
+
+::-webkit-scrollbar {
+  width: 5px;
+}
+
+::-webkit-scrollbar-track {
+  border-radius: 5px;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #060f22;
+  border-radius: 10px;
+}
+
+#app {
+  text-align: center;
+  width: 100% !important;
+  min-width: 100% !important;
+  min-height: 100vh !important;
+  overflow-y: auto !important;
+  overflow-x: hidden !important;
+}
+.video-mobile {
+  width: 60%;
+  height: auto;
+}
+.logo_asus {
+  height: 16px;
+  width: 78px;
+  background-image: url('~assets/img/logo_asus_black.svg');
+}
+
+.logo_asus:hover {
+  height: 16px;
+  width: 78px;
+  background-image: url('~assets/img/logo_asus_blue.svg');
+}
+
+.home {
+  height: 100vh;
+}
+
+body,
+html {
+  margin: 0 !important;
+  padding: 0 !important;
+  overflow-x: hidden !important;
+}
+
+/* MARGIN */
+
+.mx {
+  margin: 0 2em 0 2em;
+}
+
+.my {
+  margin: 2em 0 2em 0;
+}
+
+.mt {
+  margin: 2em 0 0 0;
+}
+
+.mb {
+  margin: 0 0 2em 0;
+}
+
+.ma {
+  margin: 2em;
+}
+/* Chrome, Safari, Edge, Opera */
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+/* Firefox */
+input[type='number'] {
+  -moz-appearance: textfield;
+}
